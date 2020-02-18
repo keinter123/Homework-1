@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "workWithClass"></div>
+    <div class="element_css"></div>
+    <div id = "work_with_tagName">
+        <h1 class = "printTagName">вывести tagName</h2>
+        <h2 class = "title-tag">1</h2>
+        <h3 class = "title-tag">2</h3>
+        <h4 class = "title-tag">3</h4>
+    </div >
+    <div>
+        <ol id = "listCreateChild"></ol>
+        <ul id = "listArray"></ul>
+    </div>
+    <ul id = "listArrayFruits"></ul>
+    <ul id = "listOfCharacters">
+        <li class = elem>!</li>
+    </ul>
+    <div id = "add-insert-adjacenthtml">
+        <h5>Абзац</h5>
+    </div>
+    <div id = "descendants">
+        <h5>Первый</h5>
+        <h5>Второй</h5>
+    </div>
+    <div>
+        <p>One</p>
+        <p id= "paragraph">Two</p>
+        <p>Three</p>
+        <p>Four</p>
+    </div>
+    <div>
+        <p>ParentNode</p>
+        <div>
+            <h2 id = "pets">Dog</h2>
+            <h2 id = "pets">Cat</h2>
+        </div>
+    </div>
+    <div id = "remove-element">
+        <h1 id = "child">Удалить </h1>
+        <button id = "button-delete">удалить</button>
+    </div>
+    <div >
+        <ol class = "colors-list">
+        <li>'red'</li>
+        <li>'green'</li>
+        <li>'gray'</li>
+        <li>'666'</li>
+    </ol>
+    <button id = "delete-last-element">удалить последний</button>
+    </div>
+    <h1 class = "deleteElement">Удалить</h1>
+    <div>
+        <ol class= "users">
+            <li>Дмитрий</li>
+            <li>Марина</li>
+            <li>Анна</li>
+            <li>Александр</li>
+        </ol>
+    </div>
+    <div id = "nextTask" class = "delete-element">
+        <input class = "entryField" type="text" value="Имя">
+        <button class = addInput>добавить поле ввода</button>
+    </div>
+    <div id = "nextTask" class = "input-form">
+        <input class = "input" type="text" value="Номер телефона">
+        <button class = "inputPlus">+</button>
+    </div>
+    <div id = "nextTask">
+       <input type="text" id ="create-input"> 
+    </div>
+    
+    <div id = "nextTask" class = "hide-parent-element">
+        <button class= "hide">Скрыть родителя</button>
+    </div>
+
+    <div id = "nextTask" class = "border-element">
+        <button class="button-border-top">Верхняя граница</button>
+        <button class="button-border-left">Боковая граница</button>
+    </div>
+    <div class = "full-size-element">
+        <button onclick = "get_FullSize()">Узнать полную ширину и высоту</button>
+        <button onclick = "get_sizeElement()">Узнать ширину без border</button>
+    </div>
+    <div id = "nextTask">
+        <input type="submit" class = "size-element" onclick = "getFullSize()" value="Получить ширину и высоту без padding">
+    </div>
+    <div id = "nextTask">
+     <div id = "img">
+            <img src="img/Безымянный.png"  class = "box-img" alt="">
+        </div>   
+    <button onclick="showScrollTop()">Показать на сколько элемент прокручен сверху</button>
+    <button onclick="showScrollLeft()">Показать на сколько элемент прокручен слева</button>
+    <button onclick="showScrollTopPosition()">Показать 100 позицию вертикального скролла</button>
+    <button onclick="scrollOn100px()">Прокрутить на 100 от текущей позиции</button>
+    </div>
+    <div id = "nextTask">
+        <button onclick="heightWithScroll()">Высота элемента с учётом scroll</button>
+        <button onclick="widthWithScroll()">Ширина элемента с учётом scroll</button>
+        <button onclick="scrollOn100pxFromBottomToTop()">Прокрутить до позиции 200px от нижнего края</button>
+    </div>
+    <div id = "nextTask">
+        <button onclick="scrollparagraph()">Прокрутить в точку 300 слева и 500 сверху</button>
+        <button onclick="scrollDownOn300()">Прокрутить вниз с текущего положения</button>
+    </div>
+    <div id = "nextTask">
+        <button onclick="scrollDownFull()">Прокрутить до самого низа</button>
+        <button onclick="scrollOn400()">Прокрутить вниз с текущего положения</button>
+        <button onclick="checkScrollPage()">Проверить прокручена ли страница до самого низа</button>
+        <button onclick="boostWidthAndHeight()">Увеличить ширину и высоту в 2 раза</button>
+    </div>
+    <div id = "nextTask">
+        <button onclick = "checkVerticalScroll()">Есть ли у окна браузера вертикальная прокрутка</button>
+        <button onclick = "scrollDownFullPage()">Прокрутить страницу до самого низа</button>
+    </div>
+    <div id = "nextTask">
+        <h1>My shoping list</h1>
+        <div>
+            <label for="item">Enter a new item:</label>
+            <input type="text" name="item" id="enter-new-item">
+            <button id="add-item">Add item</button>
+          </div>
+        <ul id="added-to-list"></ul>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
