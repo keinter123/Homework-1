@@ -1,0 +1,69 @@
+#table {
+    width: 300px;
+    border: 1px solid gray;
+    margin-top: 30px;
+    margin-bottom: 20px;
+} 
+ 
+#table tr{
+    
+    text-align: left;
+}
+#table th{
+    padding: 10px 0 10px 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.add-user {
+    width: 300px;
+    height: 50px;
+}
+form input{
+    padding: 10px;
+    margin-bottom: 14px;
+}
+#hide-button {
+    margin-top: 30px;
+    margin-right: 15px;
+    padding: 20px 10px;
+
+}
+
+.selected {
+    background: #5e9e9f;
+    color: #fff;
+    width: 200px;
+}
+
+#nav {
+	list-style:none;
+}
+#nav li {
+	float:left;
+	padding:10px;
+	border:1px solid #ffffff;
+	margin-right:4px;
+}
+#nav li:hover, #nav li.active{
+	border:1px solid #505050;
+	background:#dddddd;
+}
+#nav li a {
+	color:#505050;
+	text-decoration:none;
+}
+
+#list-products li {
+    display: block;
+    padding: 10px 10px;
+    border: 1px solid rgb(218, 218, 218);
+    width: 200px;
+
+}
+.selected {
+     background: rgb(1, 153, 133);
+     color: rgb(255, 255, 255);
+ }
