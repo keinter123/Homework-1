@@ -1,3 +1,4 @@
+'use strict';
 (function(){
   let form = document.getElementById('form');
   let listUL = document.getElementById('list');
